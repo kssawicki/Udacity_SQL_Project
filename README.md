@@ -9,13 +9,7 @@ Project 3 is an in-depth look into database querying and writing in SQL, to then
 * A terminal/command prompt window 
 * VirtualBox
 * Vagrant
-<<<<<<< HEAD
 * Psycopg2 (Required Python module)
-||||||| merged common ancestors
-=======
-* Psychopg2
->>>>>>> 1487218a92f9e7eba53e9229d0b2b64e717cfe6f
-
 * From Udacity, download this file: [newsdata.zip](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
 ** Setup
@@ -29,17 +23,14 @@ Project 3 is an in-depth look into database querying and writing in SQL, to then
 <<<<<<< HEAD
 7. Download [psycopg2](https://pypi.python.org/pypi/psycopg2) in order for the file to connect to the database, "news."
 ```
-#! /usr/bin/env python3
+#! /usr/bin/env python2
 
 import psycopg2
 
 conn = psycopg2.connect("f*dbname={news} user={user} password={password}")
 cur = conn.cursor()
 ```
-||||||| merged common ancestors
-=======
-7. Download [psycopg2](https://pypi.python.org/pypi/psycopg2) in order for the file to connect to the database:
->>>>>>> 1487218a92f9e7eba53e9229d0b2b64e717cfe6f
+
 
 ## Technical
 
@@ -49,11 +40,6 @@ cur = conn.cursor()
 4. In order to run my program, you will need to type your username and password in order to use postgres to access the database, "news."
 
 ## Bugs
-<<<<<<< HEAD
-_None to be reported so far; however, keep in mind that once VIEWs are created, there is no need to query for them to be created again. It may cause an error if queried to be created again._(Hence: CREATE OR REPLACE)
-||||||| merged common ancestors
-_None to be reported so far; however, keep in mind that once VIEWs are created, there is no need to query for them to be created again. It may cause an error if queried to be created again._
-=======
 _None to be reported so far; however, keep in mind that once VIEWs are created, there is no need to query for them to be created again. It may cause an error if queried to be created again._(Hence: CREATE OR REPLACE)
 
 # The code and queries:
@@ -68,7 +54,6 @@ import psycopg2
 conn = psycopg2.connect("f*dbname={dbname} user={user} password={password}")
 cur = conn.cursor()
 ```
->>>>>>> 1487218a92f9e7eba53e9229d0b2b64e717cfe6f
 
 1. What are the most popular three articles of all time?
 
