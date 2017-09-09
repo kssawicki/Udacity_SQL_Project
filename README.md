@@ -12,7 +12,7 @@ Project 3 is an in-depth look into database querying and writing in SQL, to then
 * Psycopg2 (Required Python module)
 * From Udacity, download this file: [newsdata.zip](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
-** Setup
+## Setup
 
 1. For Mac or Linux, the regular terminal program will work for this project. For Windows, visit [Git Bash](https://git-scm.com/downloads) to download a terminal.
 2. Install VirtualBox (to allow for access to the same software regardless of what type of computer is being used)
@@ -20,7 +20,6 @@ Project 3 is an in-depth look into database querying and writing in SQL, to then
 4. Within the vagrant subdirectory, run the command `vagrant up`
 5. Then log onto it with `vagrant ssh`
 6. After successfully logging into Vagrant, cd into `/vagrant`
-<<<<<<< HEAD
 7. Download [psycopg2](https://pypi.python.org/pypi/psycopg2) in order for the file to connect to the database, "news."
 ```
 #! /usr/bin/env python2
