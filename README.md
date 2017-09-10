@@ -36,7 +36,7 @@ cur = conn.cursor()
 1. In order to load the data, use the command `psql -d news -f newsdata.sql` This will open the PostgreSQL command line program, connect the database, and run the SQL statements within newsdata.sql
 2. The datbase contains 3 tables that will be needed to answer Udacity's questions: _authors, articles, and log._
 3. There are three questions to be answered in regard to these tables. (See The SQL section)
-4. In order to run my program, you will need to type your username and password in order to use postgres to access the database, "news."
+4. In order to run my program, you will need to type your username and password in order to use postgres to access the database, "news." (See file: variables.py)
 
 ## Bugs
 _None to be reported so far; however, keep in mind that once VIEWs are created, there is no need to query for them to be created again. It may cause an error if queried to be created again._(Hence: CREATE OR REPLACE)
